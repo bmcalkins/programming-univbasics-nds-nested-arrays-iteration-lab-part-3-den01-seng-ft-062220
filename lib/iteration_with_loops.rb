@@ -4,8 +4,8 @@ row_index = 0
 while row_index < src do
   element_index = 0
   while element_index < src[row_index].count do
-    if join_nested_strings [row_index][element_index].is_a?   String
-        total += join_nested_strings[row_index][element_index]
+    if src[row_index][element_index].is_a?   String
+        total += src[row_index][element_index]
       end
     element_index += 1
   end 
